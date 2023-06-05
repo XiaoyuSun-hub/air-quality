@@ -1,0 +1,56 @@
+#setwd()
+airbox<-read.csv("submit/ex3/37_1546297200_1548889200.csv",header=T)
+head(airbox)
+par(mfrow=c(3,2))
+attach(airbox)
+PM10log=log1p(PM10)
+PM25log=log1p(PM25)
+
+hist(PM10log,nclass = 50,main="PM10log_airbox")
+abline(v=mean(PM10log), col=2)
+abline(v=median(PM10log), col=3)
+hist(PM25log,nclass = 50,main="PM25log_airbox")
+abline(v=mean(PM25log), col=2)
+abline(v=median(PM25log), col=3)
+boxplot(PM10log,main="PM10log_airbox")
+abline(h=mean(PM10log), col=2)
+abline(h=median(PM10log), col=3)
+boxplot(PM25log,main="PM25log_airbox")
+abline(h=mean(PM25log), col=2)
+abline(h=median(PM25log), col=3)
+qqnorm(PM10log)
+qqline(PM10log)
+qqnorm(PM25log)
+qqline(PM25log)
+detach(airbox)
+
+
+#setwd()
+airbox<-read.csv("submit/airbox/csv/37_1546297200_1548889200.csv",header=T)
+head(airbox)
+par(mfrow=c(3,2))
+attach(airbox)
+
+
+hist(PM10,nclass = 50,main="PM10_airbox")
+abline(v=mean(PM10), col=2)
+abline(v=median(PM10), col=3)
+hist(PM25,nclass = 50,main="PM25_airbox")
+abline(v=mean(PM25), col=2)
+abline(v=median(PM25), col=3)
+boxplot(PM10,main="PM10_airbox")
+abline(h=mean(PM10), col=2)
+abline(h=median(PM10), col=3)
+boxplot(PM25,main="PM25_airbox")
+abline(h=mean(PM25), col=2)
+abline(h=median(PM25), col=3)
+qqnorm(PM10)
+qqline(PM10)
+qqnorm(PM25)
+qqline(PM25)
+detach(airbox)
+
+
+
+
+
