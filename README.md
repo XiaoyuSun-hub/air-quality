@@ -61,8 +61,26 @@ After log transformation, we could see from the graphs below. The distributions 
 ![air quality in January](https://github.com/XiaoyuSun-hub/air-quality/blob/master/exploreData/3a_2.png)
 
 ## Build linear regression of RIVM NO2 and airbox NO2 and make prediction. 
+### linear regression
+linear regression model for RIVM NO2(Noord) and airbox NO2( station id is 39)
+![air quality in January](https://github.com/XiaoyuSun-hub/air-quality/blob/master/exploreData/linearRegr.png)
+
+### multiple linearregression
+multiple linear regression by including relative humidity and temperature as explanatory variables 
+
+![air quality in January](https://github.com/XiaoyuSun-hub/air-quality/blob/master/exploreData/multiLinear.png)
 
 
+Because the R-square which indicates the percentage of variation that can be explained by the model. And the higher R-square means a better fit for the model. We could deduce that the multiple-linear model is a better choice over the simple linear model.
+
+The summary of  the multiple-regression model for station 39. 
+
+![air quality in January](https://github.com/XiaoyuSun-hub/air-quality/blob/master/exploreData/multiLinear2.png)
+
+### Prediction
+Use the best multiple regression model to do prediction
+
+![air quality in January](https://github.com/XiaoyuSun-hub/air-quality/blob/master/exploreData/prediction.png)
 
 ## Visualization through ArcMap and Tableau
 ### the air pollutants trend for January 2019.
