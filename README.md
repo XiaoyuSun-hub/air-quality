@@ -62,6 +62,8 @@ After log transformation, we could see from the graphs below. The distributions 
 
 ## Build linear regression of RIVM NO2 and airbox NO2 and make prediction. 
 
+
+
 ## Visualization through ArcMap and Tableau
 ### the air pollutants trend for January 2019.
 ![air quality in January](https://github.com/XiaoyuSun-hub/air-quality/blob/master/visualizedata/graph1.png)
