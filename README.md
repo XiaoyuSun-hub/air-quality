@@ -51,5 +51,11 @@ the logic is similar to calculate the hourly and daily average value for aixbox 
 table by the date.
 
 ## Visualization through ArcMap and Tableau
-！
-
+### the air pollutants trend for January 2019.
+![air quality in January](https://github.com/XiaoyuSun-hub/air-quality/blob/master/visualizedata/graph1.png)
+the NO2, PM10, PM2.5 measurements from the airbox data are showed in the picture.  the date unit day as the x and different 
+pollutants value as y. This graph shows the temporal character of the pollutants. We could see that these polutants have similar trends for the January.
+### the air pollutants at each station for January 2019
+![air quality in January](https://github.com/XiaoyuSun-hub/air-quality/blob/master/visualizedata/graph3.png)
+the NO2, 
+PM10, PM2.5 measurements from the airbox data. I choose the airbox id as the x and different pollutants value as y. This bar graph allows us compare pollutants between airbox stations.Because the station id is related to the location, we could relate the pollutants to the location. From the bar graph we could see at airbox 30, the NO2 is highest among them. We could conclude that pollution is severe at the location of the airbox 30.
