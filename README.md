@@ -55,7 +55,9 @@ table by the date.
 PM10 and PM2.5 from station 37 of Airbox to compare. These two pollutants have similar distributions. From the hist, boxplot and QQ plot, we could see that the distributions are asymmetric.
 The red line is mean value and green line is median in plots. Both are positive skewed because the mean is larger than the median in the hist and boxplot. It could also see from the QQ plot. The whole curve is above the straight line
 ![air quality in January](https://github.com/XiaoyuSun-hub/air-quality/blob/master/exploreData/3e_a_line.png)
+
 After log transformation, we could see from the graphs below. The distributions become symmetric and almost normal distributions.
+
 ![air quality in January](https://github.com/XiaoyuSun-hub/air-quality/blob/master/exploreData/3a_2.png)
 
 ## Build linear regression of RIVM NO2 and airbox NO2 and make prediction. 
