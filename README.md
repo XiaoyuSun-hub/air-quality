@@ -51,6 +51,15 @@ group by date
 ```
 the logic is similar to calculate the hourly and daily average value for aixbox 39 and RIVM data. After creating the daily and hourly tables. I joined the aixbox data table and rivm data 
 table by the date.
+## Exploratory data analysis (EDA) 
+PM10 and PM2.5 from station 37 of Airbox to compare. These two pollutants have similar distributions. From the hist, boxplot and QQ plot, we could see that the distributions are asymmetric.
+The red line is mean value and green line is median in plots. Both are positive skewed because the mean is larger than the median in the hist and boxplot. It could also see from the QQ plot. The whole curve is above the straight line
+![air quality in January](https://github.com/XiaoyuSun-hub/air-quality/blob/master/visualizedata/graph1.png)
+After log transformation, we could see from the graphs below. The distributions become 
+symmetric and almost normal distributions.
+![air quality in January](https://github.com/XiaoyuSun-hub/air-quality/blob/master/visualizedata/graph1.png)
+
+## Build linear regression of RIVM NO2 and airbox NO2 and make prediction. 
 
 ## Visualization through ArcMap and Tableau
 ### the air pollutants trend for January 2019.
