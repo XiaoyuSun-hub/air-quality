@@ -22,9 +22,11 @@ In this part, when the data is conflicts with the data type of the corresponding
 to the database.
 4. Create primary key of the table
 Full code refer to upload_airbox.py
-Upload data from RIVM
+ ### Upload data from RIVM
 Full code refer to upload_rivm.py. the logic is similar to upload_airbox.py
 
+
+### Extract data from database
 Because the measurement interval is different in airbox and RIVM, I use the following sql to join two tables together and export from the database as CSV file.
 ```
 create view airbox37 as select * from s2276895.airbox where airbox_id='37';
