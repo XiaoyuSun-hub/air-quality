@@ -84,16 +84,25 @@ Use the best multiple regression model to do prediction
 
 ## Visualization through ArcMap and Tableau
 ### the air pollutants trend for January 2019.
+
 ![air quality in January](https://github.com/XiaoyuSun-hub/air-quality/blob/master/visualizedata/graph1.png)
+
 the NO2, PM10, PM2.5 measurements from the airbox data are showed in the picture.  the date unit day as the x and different 
 pollutants value as y. This graph shows the temporal character of the pollutants. We could see that these polutants have similar trends for the January.
+
 ### the air pollutants at each station for January 2019
+
 ![air quality in January](https://github.com/XiaoyuSun-hub/air-quality/blob/master/visualizedata/graph3.png)
+
 the NO2, PM10, PM2.5 measurements from the airbox data are showed in the picture.  the date unit day as the x and different pollutants value as y. This bar graph allows us compare pollutants between airbox stations.Because the station id is related to the location, we could relate the pollutants to the location. From the bar graph we could see at airbox 30, the NO2 is highest among them. We could conclude that pollution is severe at the location of the airbox 30.
+
 ### Monthly Mean PM2.5 At Airbox Measurement Stations For January 2019 In Eindhoven
+
 ![air quality of PM2.5](https://github.com/XiaoyuSun-hub/air-quality/blob/master/visualizedata/point.png)
+
 a thematic map in ArcMap to show the monly mean value of PM2.5 for January 2019. I combine size and value to display the PM2.5. Because the measurements are quantitative, ratio and relative.The dark value shows the high value, and light value shows the low value .Big size means high value and small size means small value.The relation between the symbol size and quantity size fits our intuition.
 Monthly Mean PM2.5 IDW Interpolate Map for January 2019 In Eindhoven
 ![air quality of PM2.5](https://github.com/XiaoyuSun-hub/air-quality/blob/master/visualizedata/pollutant_idw.png)
+
 the PM 2.5 pollution interpolate map created in ArcMap by using IDW interpolate. The number is the station id. I classify the density into five classes and use the value to display them. The dark value shows the high value and light value show low value which fits our intuition.
 
